@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+body {
+  font-size: 62.5%;
+}
+
+.hero_box {
+  width: 84vw;
+  display: flex;
+  justify-content: start;
+  margin: 3rem 10rem 1rem 8rem;
+}
+.text_box {
+  flex-basis: 50%;
+  display: flex;
+ 
+  flex-direction: column;
+  text-align: start;
+  padding: 3rem 10rem 4rem 6rem;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.image_box {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image_box > img {
+  width: 23rem;
+  height: 75%;
+  border-radius: 5%;
+  cursor: pointer;
+}
+.image_box .thumbnail-box {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+}
+.image_box .thumbnail-box .thumb_image {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 0.6rem;
+  border: 0.15rem solid white;
+
+
+}
+.image_box .thumbnail-box  .thumb_active{
+  border: 0.15rem solid hsl(26, 100%, 55%);
+
+}
+
+.image_box .thumbnail-box  .thumb_image> img {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 0.4rem;
+}
+.active {
+  opacity: 0.3;
+}
+.image_box .thumbnail-box .thumb_image> img:hover{
+  opacity: 0.3;
+  cursor: pointer;
+
+}
+
+.text_box > h4 {
+  color: hsl(25, 85%, 71%);
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.2rem !important;
+}
+.text_box > h1 {
+  margin-top: 0 !important;
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+.text_box > p {
+  font-size: 1rem;
+  color: hsl(220, 14%, 75%);
+}
+.text_box .price_box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0 !important;
+  margin-right: 1rem;
+}
+.text_box .price_box > h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0 !important;
+}
+.text_box .price_box > h3 {
+  background-color: hsl(25, 100%, 94%);
+  padding: 0.2rem;
+  color: hsl(26, 100%, 55%);
+  font-size: 1rem;
+  border-radius: 20%;
+  margin-bottom: 0 !important;
+}
+.text_box > del {
+  margin-top: 0.1rem !important;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: hsl(220, 14%, 75%);
+}
+.text_box > .btn_box {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.text_box > .btn_box > span {
+    display: flex;
+    align-items: center;
+}
+.text_box > .btn_box > span > button {
+    width: 4rem;
+    height: 3rem;
+
+  color: hsl(26, 100%, 55%);
+  font-size: 1.8rem;
+
+  font-weight: 700;
+  outline: none;
+  border: none;
+  background-color: hsl(223, 64%, 98%);
+}
+
+.text_box > .btn_box > span > .sub_btn {
+    border-top-left-radius:.5rem ;
+    border-bottom-left-radius:.5rem ;
+}
+.text_box > .btn_box > span > .add_btn {
+    border-top-right-radius:.5rem ;
+    border-bottom-right-radius:.5rem ;
+}
+
+
+.text_box > .btn_box > span > input {
+  outline: none;
+  border: none;
+  width: 4rem;
+  height: 3rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: hsl(223, 64%, 98%);
+}
+
+
+.text_box > .btn_box > span >button:hover{
+  cursor: pointer;
+  color: hsl(25, 64%, 55%) ;
+  box-shadow: rgba(137, 137, 151, 0.2) 0px 7px 29px 0px;
+}
+.text_box > .btn_box > button {
+  height: 3rem;
+  width: 50%;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: hsl(26, 100%, 55%);
+  color: hsl(223, 64%, 98%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.text_box > .btn_box > button:hover {
+cursor: pointer;
+box-shadow: rgba(237, 97, 32, 0.724) 0px 5px 15px;
+transition: all 0.3s ease-in-out;
+}
+
+:where(.css-dev-only-do-not-override-1km3mtt).ant-modal-root .ant-modal-mask {
+
+  background-color: rgb(24 23 23 / 78%)!important;
+  
+} 
+
+.modal_image .ant-modal-content {
+  background: transparent;
+  box-shadow: none;
+  width: 100%;
+  height: 100%;
+
+
+}
+.modal_image  .ant-modal-body {
+  background: transparent;
+}
+.modal_image .carousel_box .carousel {
+  border-radius: 2%;
+  position: relative;
+
+}
+.prev_span {
+  position: absolute;
+  color: black;
+  background-color: white;
+  top: 36%;
+  left: 1px;
+  z-index: 1;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prev_span>.prev_arrow {
+font-size: 1.5rem;
+font-weight: bold;
+
+}
+
+.next_span {
+  position: absolute;
+  color: black;
+  background-color: white;
+  top: 36%;
+  right: 1px;
+  z-index: 1;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.next_span>.next_arrow {
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+  }
+  .next_span:hover .next_arrow ,.prev_span:hover .prev_arrow ,.next_span>.next_arrow:hover,.prev_span>.prev_arrow:hover {
+    color:hsl(25, 64%, 55%) ;
+    transition:all 0.2s ease ;
+  }
+  
+  .carousel.carousel-slider .control-arrow {
+    opacity: 0;
+  }
+.modal_image .carousel_box .carousel>img {
+  width: 30rem;
+  height: 100%;
+  border-radius: 2%;
+}
+.control-dots {
+  display: none;
+}
+.thumbs-wrapper li {
+     border: none!important;
+     padding: none!important;
+    border-radius: 0.5rem!important;
+    cursor: pointer;
+  }
+
+  .thumbs-wrapper li:hover {
+    opacity: 0.4;
+    transition: all 0.5s ease;
+
+
+  }
+.carousel.carousel-slider .control-arrow:hover {
+  background: none!important;
+}
+.carousel .thumb{
+  border: 0.15rem solid transparent!important;
+
+}
+.carousel .thumb>img{
+  border-radius: 0.2rem!important;
+
+}
+.carousel .thumb.selected {
+  border: 0.15rem solid hsl(26, 100%, 55%)!important;
+  padding: 0!important;
+
+}
+.carousel .thumb.selected >img {
+  opacity: 0.4;
+}
+
+.carousel .control-arrow {
+  opacity:0 ;
+}
+.carousel .carousel-status {
+  display: none;
+}
+
+
+
+.modal_image .ant-modal-content .ant-modal-close {
+  top: -30px!important;
+  color: hsl(26, 100%, 55%);
+
+}
+.modal_image .ant-modal-content .ant-modal-close>span {
+  font-size: 1.5rem;
+
+
+}
+.modal_image .ant-modal-content .ant-modal-close>span>svg {
+  height: 2rem;
+  font-weight: bolder!important;
+
+} 
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .hero_box{
+    flex-direction: column;
+    
+  }
+  .image_box {
+    width: 100vh;
+  } 
+  .image_box  {
+    flex-basis:content;
+    margin: 0;
+    padding: 0;
+  }
+ .image_box .thumbnail-box{
+    display: none;
+  }
+  .text_box{
+    margin: 0;
+    padding: 0;
+  }
+  .text_box .btn_box {
+    flex-direction: column;
+    width: 100vw;
+  }
+  .text_box .btn_box span {
+    width: 100%;
+  }
+  .text_box .btn_box button{
+    width: 100%;
+
+  }
+}
+
