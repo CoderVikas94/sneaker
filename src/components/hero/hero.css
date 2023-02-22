@@ -107,6 +107,10 @@ body {
   font-weight: 700;
   color: hsl(220, 14%, 75%);
 }
+
+.del_icon{
+  cursor: pointer;
+}
 .text_box > .btn_box {
   display: flex;
   align-items: center;
@@ -177,9 +181,12 @@ box-shadow: rgba(237, 97, 32, 0.724) 0px 5px 15px;
 transition: all 0.3s ease-in-out;
 }
 
-.modal_image :where(.css-dev-only-do-not-override-1km3mtt).ant-modal-root .ant-modal-mask {
+
+ :where(.css-dev-only-do-not-override-1km3mtt).ant-modal-root .ant-modal-mask {
 
   background-color: rgb(24 23 23 / 78%)!important;
+  overflow: hidden!important;
+
   
 } 
 
@@ -187,13 +194,17 @@ transition: all 0.3s ease-in-out;
   background: transparent;
   box-shadow: none;
   width: 100%;
-  height: 100%;
+  height: 39rem;
+  overflow: hidden!important;
 
 
 }
 .modal_image  .ant-modal-body {
   background: transparent;
 } 
+.modal_image .carousel_box {
+  padding-top: 0.5rem;
+}
 .modal_image .carousel_box .carousel {
   border-radius: 2%;
   position: relative;
@@ -298,7 +309,7 @@ font-weight: bold;
 
 
 .modal_image .ant-modal-content .ant-modal-close {
-  top: -30px!important;
+  top: -4px!important;
   color: hsl(26, 100%, 55%);
 
 }
