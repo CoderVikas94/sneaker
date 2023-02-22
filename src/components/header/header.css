@@ -155,10 +155,10 @@ body {
     margin-left: 1rem;
     font-size: 1.3rem;
 }
-:where(.css-dev-only-do-not-override-1km3mtt).ant-badge .ant-badge-count {
-  background-color: hsl(26, 100%, 55%);
-  line-height: 17px;
-  min-width: 28px;
+.user_box :where(.css-dev-only-do-not-override-1km3mtt).ant-badge .ant-badge-count {
+  background-color: hsl(26, 100%, 55%)!important;
+  line-height: 17px !important;
+  min-width: 28px !important;
   height: 16px;
 }
 .header_container nav .line_icon {
