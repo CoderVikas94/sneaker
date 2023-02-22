@@ -37,7 +37,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: start;
-  gap: 2rem;
+  gap: 1.1rem;
 }
 .image_box .thumbnail-box .thumb_image {
   width: 4.8rem;
@@ -193,7 +193,7 @@ transition: all 0.3s ease-in-out;
 }
 .modal_image  .ant-modal-body {
   background: transparent;
-}
+} 
 .modal_image .carousel_box .carousel {
   border-radius: 2%;
   position: relative;
