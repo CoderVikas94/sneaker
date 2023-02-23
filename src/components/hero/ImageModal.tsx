@@ -36,7 +36,6 @@ const ImageModal = ({ isModalOpen, handleOk, handleCancel }: any) => {
           <img src={hero4} alt="hero-image" />
         </div>
       </Carousel>
-      <span className="x_btn">X</span>
     </Modal>
   );
 };

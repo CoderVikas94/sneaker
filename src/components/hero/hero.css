@@ -214,7 +214,7 @@ transition: all 0.3s ease-in-out;
   position: absolute;
   color: black;
   background-color: white;
-  top: 36%;
+  top: 39%;
   left: 1px;
   z-index: 1;
   width: 3rem;
@@ -234,7 +234,7 @@ font-weight: bold;
   position: absolute;
   color: black;
   background-color: white;
-  top: 36%;
+  top: 39%;
   right: 1px;
   z-index: 1;
   width: 3rem;
@@ -274,29 +274,31 @@ font-weight: bold;
   }
 
   .thumbs-wrapper li:hover {
-    opacity: 0.4;
-    transition: all 0.5s ease;
+background-color: white;   
+padding: 0!important;
 
 
+
+  }
+  .thumbs-wrapper li:hover img {
+    opacity: 0.5;
   }
 .carousel.carousel-slider .control-arrow:hover {
   background: none!important;
 }
-.carousel .thumb{
-  border: 0.15rem solid transparent!important;
-
-}
 .carousel .thumb>img{
   border-radius: 0.2rem!important;
+  
 
 }
 .carousel .thumb.selected {
   border: 0.15rem solid hsl(26, 100%, 55%)!important;
   padding: 0!important;
+  background-color: white;
 
 }
 .carousel .thumb.selected >img {
-  opacity: 0.4;
+  opacity: 0.5;
 }
 
 .carousel .control-arrow {
